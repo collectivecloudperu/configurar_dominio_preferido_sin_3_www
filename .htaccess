@@ -1,7 +1,6 @@
 #para redirigir sin www
-RewriteCond %{HTTP_HOST} ^www.collectivecloudperu.com [NC]
+RewriteCond %{HTTP_HOST} ^www.midominio.com [NC]
 RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
 RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
 RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
-RewriteRule ^(.*)$ http://collectivecloudperu.com/$1 [L,R=301,NC]
-</IfModule>
+RewriteRule ^(.*)$ http://midominio.com/$1 [L,R=301,NC]
