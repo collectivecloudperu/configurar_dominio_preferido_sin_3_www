@@ -1,1 +1,1 @@
-# configurar_dominio_preferido_sin_3_www
+Código que debemos incluir en nuestro archivo .htaccess para configurar nuestro dominio preferido si las www al inicio de nuestro dominio.
